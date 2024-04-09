@@ -1,0 +1,3176 @@
+{
+ "getUserMedia": [
+  {
+   "audio": "{echoCancellation: {ideal: true}, autoGainControl: {ideal: true}, noiseSuppression: {ideal: true}}",
+   "origin": "https://apps.usw2.pure.cloud",
+   "pid": 14096,
+   "request_id": 0,
+   "request_type": "getUserMedia",
+   "rid": 29,
+   "timestamp": 1711750269875.903
+  },
+  {
+   "audio": "{echoCancellation: {ideal: true}, autoGainControl: {ideal: true}, noiseSuppression: {ideal: true}}",
+   "origin": "https://apps.usw2.pure.cloud",
+   "pid": 14096,
+   "request_id": 1,
+   "request_type": "getUserMedia",
+   "rid": 29,
+   "timestamp": 1711750271500.663
+  },
+  {
+   "audio_track_info": "id:9e96f8dc-85a2-45cc-978b-208a12f60ae4 label:Default - Line 1 (Virtual Audio Cable)",
+   "pid": 14096,
+   "request_id": 0,
+   "request_type": "getUserMedia",
+   "rid": 29,
+   "stream_id": "5ed2b129-22a0-4d0b-91dc-0086369698f0",
+   "timestamp": 1711750284406.7
+  },
+  {
+   "audio_track_info": "id:48526b68-5ecc-4e14-9147-53738b067e21 label:Default - Line 1 (Virtual Audio Cable)",
+   "pid": 14096,
+   "request_id": 1,
+   "request_type": "getUserMedia",
+   "rid": 29,
+   "stream_id": "7f906fda-61fa-4886-9d4d-aee5720f2afb",
+   "timestamp": 1711750284540.023
+  },
+  {
+   "audio": "{echoCancellation: {ideal: true}, deviceId: {exact: [\"default\"]}, autoGainControl: {ideal: true}, noiseSuppression: {ideal: true}}",
+   "origin": "https://apps.usw2.pure.cloud",
+   "pid": 14096,
+   "request_id": 2,
+   "request_type": "getUserMedia",
+   "rid": 29,
+   "timestamp": 1711750438943.769
+  },
+  {
+   "audio_track_info": "id:f0ebc782-8bc4-4618-af2d-a8b92ee47454 label:Default - Line 1 (Virtual Audio Cable)",
+   "pid": 14096,
+   "request_id": 2,
+   "request_type": "getUserMedia",
+   "rid": 29,
+   "stream_id": "6b140fec-2754-45b0-a1ba-f5a3b0b5e255",
+   "timestamp": 1711750439149.477
+  }
+ ],
+ "PeerConnections": {
+  "29-2": {
+   "pid": 14096,
+   "rtcConfiguration": "{ iceServers: [turn:turn.usw2.pure.cloud:3478, stun:turn.usw2.pure.cloud:3478, stun:stun.l.google.com:19302], iceTransportPolicy: all, bundlePolicy: balanced, rtcpMuxPolicy: require, iceCandidatePoolSize: 0 }",
+   "stats": {
+    "AP-kind": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-playout",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "AP-synthesizedSamplesDuration": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-playout",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "AP-synthesizedSamplesEvents": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-playout",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "AP-totalSamplesDuration": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-playout",
+     "values": "[0,1.34,1.92,2.86,3.86,4.86,5.81,5.81,5.81,5.81,5.81,5.81,5.81,5.81,5.81,5.81]"
+    },
+    "AP-totalPlayoutDelay": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-playout",
+     "values": "[0,2621.11008,3771.5376,5632.28832,7607.83536,9578.7768,11460.86688,11460.86688,11460.86688,11460.86688,11460.86688,11460.86688,11460.86688,11460.86688,11460.86688,11460.86688]"
+    },
+    "AP-totalSamplesCount": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-playout",
+     "values": "[0,64320,92160,137280,185280,233280,278880,278880,278880,278880,278880,278880,278880,278880,278880,278880]"
+    },
+    "AP-timestamp": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-playout",
+     "values": "[1711750439146.938,1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605,1711750445157.239,1711750445783.404,1711750446279.484,1711750448157.997,1711750449227.482,1711750450150.687,1711750451157.374,1711750452143.934,1711750452948.696,1711750453288.088]"
+    },
+    "CF57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20-fingerprint": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "certificate",
+     "values": "[\"57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\",\"57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\",\"57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\",\"57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\",\"57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\",\"57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\"]"
+    },
+    "CF57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20-fingerprintAlgorithm": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "certificate",
+     "values": "[\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\",\"sha-256\"]"
+    },
+    "CF57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20-base64Certificate": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "certificate",
+     "values": "[\"MIIBFzCBvaADAgECAgkAxrLZR4gz2wEwCgYIKoZIzj0EAwIwETEPMA0GA1UEAwwGV2ViUlRDMB4XDTI0MDMyODIyMTM1OFoXDTI0MDQyODIyMTM1OFowETEPMA0GA1UEAwwGV2ViUlRDMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2YsRXy3PZrGwbxsGFaKvCz3G5VtgKBENv9K+Xu6uuoXup9ry5E+8OcT+tDNvlX222uDnX1KeCFk4IKoDtr4r4TAKBggqhkjOPQQDAgNJADBGAiEAi2RANPyUn4KIZ8udas2xdmL0lhan7u0k0fN+0oBGr40CIQDj5MBAKvXcEn+J/xuwK8SNwbvABaGSSxEOR8ghfSVb4w==\",\"MIIBFzCBvaADAgECAgkAxrLZR4gz2wEwCgYIKoZIzj0EAwIwETEPMA0GA1UEAwwGV2ViUlRDMB4XDTI0MDMyODIyMTM1OFoXDTI0MDQyODIyMTM1OFowETEPMA0GA1UEAwwGV2ViUlRDMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2YsRXy3PZrGwbxsGFaKvCz3G5VtgKBENv9K+Xu6uuoXup9ry5E+8OcT+tDNvlX222uDnX1KeCFk4IKoDtr4r4TAKBggqhkjOPQQDAgNJADBGAiEAi2RANPyUn4KIZ8udas2xdmL0lhan7u0k0fN+0oBGr40CIQDj5MBAKvXcEn+J/xuwK8SNwbvABaGSSxEOR8ghfSVb4w==\",\"MIIBFzCBvaADAgECAgkAxrLZR4gz2wEwCgYIKoZIzj0EAwIwETEPMA0GA1UEAwwGV2ViUlRDMB4XDTI0MDMyODIyMTM1OFoXDTI0MDQyODIyMTM1OFowETEPMA0GA1UEAwwGV2ViUlRDMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2YsRXy3PZrGwbxsGFaKvCz3G5VtgKBENv9K+Xu6uuoXup9ry5E+8OcT+tDNvlX222uDnX1KeCFk4IKoDtr4r4TAKBggqhkjOPQQDAgNJADBGAiEAi2RANPyUn4KIZ8udas2xdmL0lhan7u0k0fN+0oBGr40CIQDj5MBAKvXcEn+J/xuwK8SNwbvABaGSSxEOR8ghfSVb4w==\",\"MIIBFzCBvaADAgECAgkAxrLZR4gz2wEwCgYIKoZIzj0EAwIwETEPMA0GA1UEAwwGV2ViUlRDMB4XDTI0MDMyODIyMTM1OFoXDTI0MDQyODIyMTM1OFowETEPMA0GA1UEAwwGV2ViUlRDMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2YsRXy3PZrGwbxsGFaKvCz3G5VtgKBENv9K+Xu6uuoXup9ry5E+8OcT+tDNvlX222uDnX1KeCFk4IKoDtr4r4TAKBggqhkjOPQQDAgNJADBGAiEAi2RANPyUn4KIZ8udas2xdmL0lhan7u0k0fN+0oBGr40CIQDj5MBAKvXcEn+J/xuwK8SNwbvABaGSSxEOR8ghfSVb4w==\",\"MIIBFzCBvaADAgECAgkAxrLZR4gz2wEwCgYIKoZIzj0EAwIwETEPMA0GA1UEAwwGV2ViUlRDMB4XDTI0MDMyODIyMTM1OFoXDTI0MDQyODIyMTM1OFowETEPMA0GA1UEAwwGV2ViUlRDMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2YsRXy3PZrGwbxsGFaKvCz3G5VtgKBENv9K+Xu6uuoXup9ry5E+8OcT+tDNvlX222uDnX1KeCFk4IKoDtr4r4TAKBggqhkjOPQQDAgNJADBGAiEAi2RANPyUn4KIZ8udas2xdmL0lhan7u0k0fN+0oBGr40CIQDj5MBAKvXcEn+J/xuwK8SNwbvABaGSSxEOR8ghfSVb4w==\",\"MIIBFzCBvaADAgECAgkAxrLZR4gz2wEwCgYIKoZIzj0EAwIwETEPMA0GA1UEAwwGV2ViUlRDMB4XDTI0MDMyODIyMTM1OFoXDTI0MDQyODIyMTM1OFowETEPMA0GA1UEAwwGV2ViUlRDMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2YsRXy3PZrGwbxsGFaKvCz3G5VtgKBENv9K+Xu6uuoXup9ry5E+8OcT+tDNvlX222uDnX1KeCFk4IKoDtr4r4TAKBggqhkjOPQQDAgNJADBGAiEAi2RANPyUn4KIZ8udas2xdmL0lhan7u0k0fN+0oBGr40CIQDj5MBAKvXcEn+J/xuwK8SNwbvABaGSSxEOR8ghfSVb4w==\"]"
+    },
+    "CF57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20-timestamp": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "certificate",
+     "values": "[1711750439146.938,1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "P-dataChannelsOpened": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "peer-connection",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "P-dataChannelsClosed": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "peer-connection",
+     "values": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"
+    },
+    "P-timestamp": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "peer-connection",
+     "values": "[1711750439146.938,1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605,1711750445157.239,1711750445783.404,1711750446279.484,1711750448157.997,1711750449227.482,1711750450150.687,1711750451157.374,1711750452143.934,1711750452948.696,1711750453288.088]"
+    },
+    "Taudio1-bytesSent": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[0,2786,5208,8779,11782,14526]"
+    },
+    "Taudio1-[bytesSent_in_bits/s]": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[0,15128.477979042764,33262.104519896566,30381.107844765444,24039.268471529045,21925.512513183523]"
+    },
+    "Taudio1-packetsSent": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[0,38,67,115,166,216]"
+    },
+    "Taudio1-[packetsSent/s]": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[0,25.793349031031273,49.78329020835056,51.04638674561542,51.03241308891031,49.9396695362234]"
+    },
+    "Taudio1-bytesReceived": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[0,2724,3543,5636,8375,10203]"
+    },
+    "Taudio1-[bytesReceived_in_bits/s]": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[0,14791.806896953514,11247.59025672803,17806.681243095514,21925.9261883177,14606.35454595462]"
+    },
+    "Taudio1-packetsReceived": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[0,41,70,116,168,218]"
+    },
+    "Taudio1-[packetsReceived/s]": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[0,27.8296660597969,49.78329020835056,48.91945396454811,52.033048639673254,49.9396695362234]"
+    },
+    "Taudio1-dtlsState": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[\"new\",\"connected\",\"connected\",\"connected\",\"connected\",\"connected\"]"
+    },
+    "Taudio1-localCertificateId": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[\"CF57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\",\"CF57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\",\"CF57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\",\"CF57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\",\"CF57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\",\"CF57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\"]"
+    },
+    "Taudio1-dtlsRole": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[\"unknown\",\"client\",\"client\",\"client\",\"client\",\"client\"]"
+    },
+    "Taudio1-selectedCandidatePairChanges": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[0,1,1,1,1,1]"
+    },
+    "Taudio1-iceRole": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[\"controlling\",\"controlled\",\"controlled\",\"controlled\",\"controlled\",\"controlled\"]"
+    },
+    "Taudio1-iceLocalUsernameFragment": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[\"\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "Taudio1-iceState": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[\"new\",\"connected\",\"connected\",\"connected\",\"connected\",\"connected\"]"
+    },
+    "Taudio1-timestamp": {
+     "startTime": "2024-03-29T22:13:59.146Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[1711750439146.938,1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "CITaudio1_96_minptime=10;useinbandfec=1-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "CITaudio1_96_minptime=10;useinbandfec=1-payloadType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[96,96,96,96,96]"
+    },
+    "CITaudio1_96_minptime=10;useinbandfec=1-mimeType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[\"audio/opus\",\"audio/opus\",\"audio/opus\",\"audio/opus\",\"audio/opus\"]"
+    },
+    "CITaudio1_96_minptime=10;useinbandfec=1-clockRate": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[48000,48000,48000,48000,48000]"
+    },
+    "CITaudio1_96_minptime=10;useinbandfec=1-channels": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[2,2,2,2,2]"
+    },
+    "CITaudio1_96_minptime=10;useinbandfec=1-sdpFmtpLine": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[\"minptime=10;useinbandfec=1\",\"minptime=10;useinbandfec=1\",\"minptime=10;useinbandfec=1\",\"minptime=10;useinbandfec=1\",\"minptime=10;useinbandfec=1\"]"
+    },
+    "CITaudio1_96_minptime=10;useinbandfec=1-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "COTaudio1_96_minptime=10;useinbandfec=1-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "COTaudio1_96_minptime=10;useinbandfec=1-payloadType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[96,96,96,96,96]"
+    },
+    "COTaudio1_96_minptime=10;useinbandfec=1-mimeType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[\"audio/opus\",\"audio/opus\",\"audio/opus\",\"audio/opus\",\"audio/opus\"]"
+    },
+    "COTaudio1_96_minptime=10;useinbandfec=1-clockRate": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[48000,48000,48000,48000,48000]"
+    },
+    "COTaudio1_96_minptime=10;useinbandfec=1-channels": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[2,2,2,2,2]"
+    },
+    "COTaudio1_96_minptime=10;useinbandfec=1-sdpFmtpLine": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[\"minptime=10;useinbandfec=1\",\"minptime=10;useinbandfec=1\",\"minptime=10;useinbandfec=1\",\"minptime=10;useinbandfec=1\",\"minptime=10;useinbandfec=1\"]"
+    },
+    "COTaudio1_96_minptime=10;useinbandfec=1-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "codec",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-localCandidateId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"IRfYNeh5A\",\"IRfYNeh5A\",\"IRfYNeh5A\",\"IRfYNeh5A\",\"IRfYNeh5A\"]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-remoteCandidateId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\"]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-state": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"in-progress\",\"in-progress\",\"in-progress\",\"in-progress\",\"in-progress\"]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[7277816997780012000,7277816997780012000,7277816997780012000,7277816997780012000,7277816997780012000]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-nominated": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[false,false,false,false,false]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-writable": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[false,false,false,false,false]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-packetsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-[packetsSent/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-packetsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-[packetsReceived/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-bytesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-[bytesSent_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-bytesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-[bytesReceived_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-totalRoundTripTime": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-[totalRoundTripTime/responsesReceived]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-requestsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-requestsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[3,3,3,4,5]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-responsesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-responsesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-consentRequestsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-packetsDiscardedOnSend": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-bytesDiscardedOnSend": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPRfYNeh5A_yCLf4Scb-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "CPSQAxowMN_yCLf4Scb-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "CPSQAxowMN_yCLf4Scb-localCandidateId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"ISQAxowMN\",\"ISQAxowMN\",\"ISQAxowMN\",\"ISQAxowMN\",\"ISQAxowMN\"]"
+    },
+    "CPSQAxowMN_yCLf4Scb-remoteCandidateId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\"]"
+    },
+    "CPSQAxowMN_yCLf4Scb-state": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"succeeded\",\"succeeded\",\"succeeded\",\"succeeded\",\"succeeded\"]"
+    },
+    "CPSQAxowMN_yCLf4Scb-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[179897693584228400,179897693584228400,179897693584228400,179897693584228400,179897693584228400]"
+    },
+    "CPSQAxowMN_yCLf4Scb-nominated": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[false,false,false,false,false]"
+    },
+    "CPSQAxowMN_yCLf4Scb-writable": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[false,false,false,false,false]"
+    },
+    "CPSQAxowMN_yCLf4Scb-packetsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-[packetsSent/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-packetsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-[packetsReceived/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-bytesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-[bytesSent_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-bytesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-[bytesReceived_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-totalRoundTripTime": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0.307,0.307,0.307,0.307,0.307]"
+    },
+    "CPSQAxowMN_yCLf4Scb-[totalRoundTripTime/responsesReceived]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-currentRoundTripTime": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0.307,0.307,0.307,0.307,0.307]"
+    },
+    "CPSQAxowMN_yCLf4Scb-requestsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[1,1,1,1,1]"
+    },
+    "CPSQAxowMN_yCLf4Scb-requestsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[2,2,2,2,2]"
+    },
+    "CPSQAxowMN_yCLf4Scb-responsesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[1,1,1,1,1]"
+    },
+    "CPSQAxowMN_yCLf4Scb-responsesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[1,1,1,1,1]"
+    },
+    "CPSQAxowMN_yCLf4Scb-consentRequestsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-packetsDiscardedOnSend": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-bytesDiscardedOnSend": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPSQAxowMN_yCLf4Scb-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "CPUdwln7BN_yCLf4Scb-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "CPUdwln7BN_yCLf4Scb-localCandidateId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"IUdwln7BN\",\"IUdwln7BN\",\"IUdwln7BN\",\"IUdwln7BN\",\"IUdwln7BN\"]"
+    },
+    "CPUdwln7BN_yCLf4Scb-remoteCandidateId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\"]"
+    },
+    "CPUdwln7BN_yCLf4Scb-state": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"in-progress\",\"in-progress\",\"in-progress\",\"in-progress\",\"in-progress\"]"
+    },
+    "CPUdwln7BN_yCLf4Scb-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[7277816997780143000,7277816997780143000,7277816997780143000,7277816997780143000,7277816997780143000]"
+    },
+    "CPUdwln7BN_yCLf4Scb-nominated": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[false,false,false,false,false]"
+    },
+    "CPUdwln7BN_yCLf4Scb-writable": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[false,false,false,false,false]"
+    },
+    "CPUdwln7BN_yCLf4Scb-packetsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-[packetsSent/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-packetsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-[packetsReceived/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-bytesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-[bytesSent_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-bytesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-[bytesReceived_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-totalRoundTripTime": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-[totalRoundTripTime/responsesReceived]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-requestsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-requestsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[3,3,4,4,5]"
+    },
+    "CPUdwln7BN_yCLf4Scb-responsesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-responsesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-consentRequestsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-packetsDiscardedOnSend": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-bytesDiscardedOnSend": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPUdwln7BN_yCLf4Scb-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-localCandidateId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"IeQvcmfSS\",\"IeQvcmfSS\",\"IeQvcmfSS\",\"IeQvcmfSS\",\"IeQvcmfSS\"]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-remoteCandidateId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\"]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-state": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"in-progress\",\"in-progress\",\"in-progress\",\"in-progress\",\"in-progress\"]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[7277816997779619000,7277816997779619000,7277816997779619000,7277816997779619000,7277816997779619000]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-nominated": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[false,false,false,false,false]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-writable": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[false,false,false,false,false]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-packetsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-[packetsSent/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-packetsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-[packetsReceived/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-bytesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-[bytesSent_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-bytesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-[bytesReceived_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-totalRoundTripTime": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-[totalRoundTripTime/responsesReceived]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-requestsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-requestsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[3,3,3,4,4]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-responsesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-responsesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-consentRequestsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-packetsDiscardedOnSend": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-bytesDiscardedOnSend": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPeQvcmfSS_yCLf4Scb-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "CPkZp52INl_yCLf4Scb-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "CPkZp52INl_yCLf4Scb-localCandidateId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"IkZp52INl\",\"IkZp52INl\",\"IkZp52INl\",\"IkZp52INl\",\"IkZp52INl\"]"
+    },
+    "CPkZp52INl_yCLf4Scb-remoteCandidateId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\",\"IyCLf4Scb\"]"
+    },
+    "CPkZp52INl_yCLf4Scb-state": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"succeeded\",\"succeeded\",\"succeeded\",\"succeeded\",\"succeeded\"]"
+    },
+    "CPkZp52INl_yCLf4Scb-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[7241540809789538000,7241540809789538000,7241540809789538000,7241540809789538000,7241540809789538000]"
+    },
+    "CPkZp52INl_yCLf4Scb-nominated": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[true,true,true,true,true]"
+    },
+    "CPkZp52INl_yCLf4Scb-writable": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[true,true,true,true,true]"
+    },
+    "CPkZp52INl_yCLf4Scb-packetsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[38,67,115,166,216]"
+    },
+    "CPkZp52INl_yCLf4Scb-[packetsSent/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,49.78329020835056,51.04638674561542,51.03241308891031,49.9396695362234]"
+    },
+    "CPkZp52INl_yCLf4Scb-packetsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[41,70,116,168,218]"
+    },
+    "CPkZp52INl_yCLf4Scb-[packetsReceived/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,49.78329020835056,48.91945396454811,52.033048639673254,49.9396695362234]"
+    },
+    "CPkZp52INl_yCLf4Scb-bytesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[2786,5208,8779,11782,14526]"
+    },
+    "CPkZp52INl_yCLf4Scb-[bytesSent_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,33262.104519896566,30381.107844765444,24039.268471529045,21925.512513183523]"
+    },
+    "CPkZp52INl_yCLf4Scb-bytesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[2724,3543,5636,8375,10203]"
+    },
+    "CPkZp52INl_yCLf4Scb-[bytesReceived_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,11247.59025672803,17806.681243095514,21925.9261883177,14606.35454595462]"
+    },
+    "CPkZp52INl_yCLf4Scb-totalRoundTripTime": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0.559,0.679,0.799,0.799,0.799]"
+    },
+    "CPkZp52INl_yCLf4Scb-[totalRoundTripTime/responsesReceived]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0.12,0.12,0,0]"
+    },
+    "CPkZp52INl_yCLf4Scb-currentRoundTripTime": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0.316,0.12,0.12,0.12,0.12]"
+    },
+    "CPkZp52INl_yCLf4Scb-availableOutgoingBitrate": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[300000,300000,300000,325000,352000]"
+    },
+    "CPkZp52INl_yCLf4Scb-requestsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[4,4,4,4,4]"
+    },
+    "CPkZp52INl_yCLf4Scb-requestsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[3,4,5,5,5]"
+    },
+    "CPkZp52INl_yCLf4Scb-responsesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[3,4,5,5,5]"
+    },
+    "CPkZp52INl_yCLf4Scb-responsesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[4,4,4,4,4]"
+    },
+    "CPkZp52INl_yCLf4Scb-consentRequestsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[2,3,4,4,4]"
+    },
+    "CPkZp52INl_yCLf4Scb-packetsDiscardedOnSend": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPkZp52INl_yCLf4Scb-bytesDiscardedOnSend": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[0,0,0,0,0]"
+    },
+    "CPkZp52INl_yCLf4Scb-lastPacketReceivedTimestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[1711750440609,1711750441189,1711750442135,1711750443135,1711750444135]"
+    },
+    "CPkZp52INl_yCLf4Scb-[lastPacketReceivedTimestamp]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"3/29/2024, 6:14:00 PM\",\"3/29/2024, 6:14:01 PM\",\"3/29/2024, 6:14:02 PM\",\"3/29/2024, 6:14:03 PM\",\"3/29/2024, 6:14:04 PM\"]"
+    },
+    "CPkZp52INl_yCLf4Scb-lastPacketSentTimestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[1711750440617,1711750441197,1711750442136,1711750443139,1711750444138]"
+    },
+    "CPkZp52INl_yCLf4Scb-[lastPacketSentTimestamp]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[\"3/29/2024, 6:14:00 PM\",\"3/29/2024, 6:14:01 PM\",\"3/29/2024, 6:14:02 PM\",\"3/29/2024, 6:14:03 PM\",\"3/29/2024, 6:14:04 PM\"]"
+    },
+    "CPkZp52INl_yCLf4Scb-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "candidate-pair",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "I+xYkocRx-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "I+xYkocRx-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "I+xYkocRx-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\"]"
+    },
+    "I+xYkocRx-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\"]"
+    },
+    "I+xYkocRx-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\"]"
+    },
+    "I+xYkocRx-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[9,9,9,9,9]"
+    },
+    "I+xYkocRx-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"tcp\",\"tcp\",\"tcp\",\"tcp\",\"tcp\"]"
+    },
+    "I+xYkocRx-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"host\",\"host\",\"host\",\"host\",\"host\"]"
+    },
+    "I+xYkocRx-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1518214911,1518214911,1518214911,1518214911,1518214911]"
+    },
+    "I+xYkocRx-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1445917904,1445917904,1445917904,1445917904,1445917904]"
+    },
+    "I+xYkocRx-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "I+xYkocRx-tcpType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"active\",\"active\",\"active\",\"active\",\"active\"]"
+    },
+    "I+xYkocRx-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "I+xYkocRx-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\"]"
+    },
+    "I+xYkocRx-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "I0AxUvhYa-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "I0AxUvhYa-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "I0AxUvhYa-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"wifi\",\"wifi\",\"wifi\",\"wifi\",\"wifi\"]"
+    },
+    "I0AxUvhYa-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1\",\"2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1\",\"2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1\",\"2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1\",\"2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1\"]"
+    },
+    "I0AxUvhYa-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1\",\"2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1\",\"2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1\",\"2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1\",\"2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1\"]"
+    },
+    "I0AxUvhYa-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[9,9,9,9,9]"
+    },
+    "I0AxUvhYa-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"tcp\",\"tcp\",\"tcp\",\"tcp\",\"tcp\"]"
+    },
+    "I0AxUvhYa-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"host\",\"host\",\"host\",\"host\",\"host\"]"
+    },
+    "I0AxUvhYa-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1518020863,1518020863,1518020863,1518020863,1518020863]"
+    },
+    "I0AxUvhYa-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[3188703018,3188703018,3188703018,3188703018,3188703018]"
+    },
+    "I0AxUvhYa-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "I0AxUvhYa-tcpType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"active\",\"active\",\"active\",\"active\",\"active\"]"
+    },
+    "I0AxUvhYa-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "I0AxUvhYa-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"wifi\",\"wifi\",\"wifi\",\"wifi\",\"wifi\"]"
+    },
+    "I0AxUvhYa-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "I5eiG++dQ-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "I5eiG++dQ-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "I5eiG++dQ-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"wifi\",\"wifi\",\"wifi\",\"wifi\",\"wifi\"]"
+    },
+    "I5eiG++dQ-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\"]"
+    },
+    "I5eiG++dQ-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\"]"
+    },
+    "I5eiG++dQ-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[9,9,9,9,9]"
+    },
+    "I5eiG++dQ-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"tcp\",\"tcp\",\"tcp\",\"tcp\",\"tcp\"]"
+    },
+    "I5eiG++dQ-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"host\",\"host\",\"host\",\"host\",\"host\"]"
+    },
+    "I5eiG++dQ-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1517952767,1517952767,1517952767,1517952767,1517952767]"
+    },
+    "I5eiG++dQ-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2164174574,2164174574,2164174574,2164174574,2164174574]"
+    },
+    "I5eiG++dQ-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "I5eiG++dQ-tcpType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"active\",\"active\",\"active\",\"active\",\"active\"]"
+    },
+    "I5eiG++dQ-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "I5eiG++dQ-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"wifi\",\"wifi\",\"wifi\",\"wifi\",\"wifi\"]"
+    },
+    "I5eiG++dQ-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "IRfYNeh5A-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "IRfYNeh5A-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IRfYNeh5A-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\"]"
+    },
+    "IRfYNeh5A-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\"]"
+    },
+    "IRfYNeh5A-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\"]"
+    },
+    "IRfYNeh5A-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[52266,52266,52266,52266,52266]"
+    },
+    "IRfYNeh5A-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"udp\",\"udp\",\"udp\",\"udp\",\"udp\"]"
+    },
+    "IRfYNeh5A-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"host\",\"host\",\"host\",\"host\",\"host\"]"
+    },
+    "IRfYNeh5A-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2122129151,2122129151,2122129151,2122129151,2122129151]"
+    },
+    "IRfYNeh5A-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2177110396,2177110396,2177110396,2177110396,2177110396]"
+    },
+    "IRfYNeh5A-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "IRfYNeh5A-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IRfYNeh5A-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\"]"
+    },
+    "IRfYNeh5A-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "ISQAxowMN-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "ISQAxowMN-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "ISQAxowMN-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "ISQAxowMN-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"52.129.111.28\",\"52.129.111.28\",\"52.129.111.28\",\"52.129.111.28\",\"52.129.111.28\"]"
+    },
+    "ISQAxowMN-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"52.129.111.28\",\"52.129.111.28\",\"52.129.111.28\",\"52.129.111.28\",\"52.129.111.28\"]"
+    },
+    "ISQAxowMN-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[17963,17963,17963,17963,17963]"
+    },
+    "ISQAxowMN-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"udp\",\"udp\",\"udp\",\"udp\",\"udp\"]"
+    },
+    "ISQAxowMN-relayProtocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"udp\",\"udp\",\"udp\",\"udp\",\"udp\"]"
+    },
+    "ISQAxowMN-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"relay\",\"relay\",\"relay\",\"relay\",\"relay\"]"
+    },
+    "ISQAxowMN-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[41885695,41885695,41885695,41885695,41885695]"
+    },
+    "ISQAxowMN-url": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"turn:turn.usw2.pure.cloud:3478?transport=udp\",\"turn:turn.usw2.pure.cloud:3478?transport=udp\",\"turn:turn.usw2.pure.cloud:3478?transport=udp\",\"turn:turn.usw2.pure.cloud:3478?transport=udp\",\"turn:turn.usw2.pure.cloud:3478?transport=udp\"]"
+    },
+    "ISQAxowMN-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2647703602,2647703602,2647703602,2647703602,2647703602]"
+    },
+    "ISQAxowMN-relatedAddress": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"193.43.135.6\",\"193.43.135.6\",\"193.43.135.6\",\"193.43.135.6\",\"193.43.135.6\"]"
+    },
+    "ISQAxowMN-relatedPort": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[52264,52264,52264,52264,52264]"
+    },
+    "ISQAxowMN-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "ISQAxowMN-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "ISQAxowMN-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "ISQAxowMN-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "ITaudio1A408134698-ssrc": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[408134698,408134698,408134698,408134698,408134698]"
+    },
+    "ITaudio1A408134698-kind": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "ITaudio1A408134698-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "ITaudio1A408134698-codecId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[\"CITaudio1_96_minptime=10;useinbandfec=1\",\"CITaudio1_96_minptime=10;useinbandfec=1\",\"CITaudio1_96_minptime=10;useinbandfec=1\",\"CITaudio1_96_minptime=10;useinbandfec=1\",\"CITaudio1_96_minptime=10;useinbandfec=1\"]"
+    },
+    "ITaudio1A408134698-[codec]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[\"opus (96, minptime=10;useinbandfec=1)\",\"opus (96, minptime=10;useinbandfec=1)\",\"opus (96, minptime=10;useinbandfec=1)\",\"opus (96, minptime=10;useinbandfec=1)\",\"opus (96, minptime=10;useinbandfec=1)\"]"
+    },
+    "ITaudio1A408134698-jitter": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-packetsLost": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-playoutId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[\"AP\",\"AP\",\"AP\",\"AP\",\"AP\"]"
+    },
+    "ITaudio1A408134698-trackIdentifier": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "ITaudio1A408134698-mid": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "ITaudio1A408134698-remoteId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[\"ROA408134698\",\"ROA408134698\",\"ROA408134698\",\"ROA408134698\",\"ROA408134698\"]"
+    },
+    "ITaudio1A408134698-packetsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[37,66,112,162,212]"
+    },
+    "ITaudio1A408134698-[packetsReceived/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,49.78329020835056,48.91945396454811,50.03177753814736,49.9396695362234]"
+    },
+    "ITaudio1A408134698-packetsDiscarded": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-[packetsDiscarded/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-fecPacketsReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-[fecPacketsReceived/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-fecPacketsDiscarded": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-[fecPacketsDiscarded/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-bytesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[231,412,1493,2948,3676]"
+    },
+    "ITaudio1A408134698-[bytesReceived_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,2485.731180058331,9196.857345335045,11647.397810880706,5816.972707579302]"
+    },
+    "ITaudio1A408134698-headerBytesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[444,792,1344,1944,2544]"
+    },
+    "ITaudio1A408134698-[headerBytesReceived_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,4779.195860001653,4696.267580596619,4803.050643662146,4794.2082754774465]"
+    },
+    "ITaudio1A408134698-lastPacketReceivedTimestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[1711750440610.144,1711750441190.625,1711750442136.125,1711750443136.489,1711750444136.1301]"
+    },
+    "ITaudio1A408134698-[lastPacketReceivedTimestamp]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[\"3/29/2024, 6:14:00 PM\",\"3/29/2024, 6:14:01 PM\",\"3/29/2024, 6:14:02 PM\",\"3/29/2024, 6:14:03 PM\",\"3/29/2024, 6:14:04 PM\"]"
+    },
+    "ITaudio1A408134698-jitterBufferDelay": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[604.8,1430.4,2140.8,2620.8,3753.6]"
+    },
+    "ITaudio1A408134698-[jitterBufferDelay/jitterBufferEmittedCount_in_ms]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,29.655172413793107,16.086956521739133,10,24.081632653061217]"
+    },
+    "ITaudio1A408134698-jitterBufferTargetDelay": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[2227.2,2784,4262.4,6182.4,8064]"
+    },
+    "ITaudio1A408134698-[jitterBufferTargetDelay/jitterBufferEmittedCount_in_ms]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,20.000000000000007,33.478260869565204,40,40.00000000000001]"
+    },
+    "ITaudio1A408134698-jitterBufferMinimumDelay": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[2073.6,2630.4,4108.8,6028.8,7910.4]"
+    },
+    "ITaudio1A408134698-[jitterBufferMinimumDelay/jitterBufferEmittedCount_in_ms]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,20.000000000000007,33.47826086956522,40,39.999999999999986]"
+    },
+    "ITaudio1A408134698-jitterBufferEmittedCount": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[33600,61440,105600,153600,200640]"
+    },
+    "ITaudio1A408134698-totalSamplesReceived": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[34560,62400,107520,155520,203520]"
+    },
+    "ITaudio1A408134698-[totalSamplesReceived/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,47791.95860001654,47983.603540878496,48030.506436621465,47942.08275477446]"
+    },
+    "ITaudio1A408134698-concealedSamples": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[480,480,840,840,840]"
+    },
+    "ITaudio1A408134698-[concealedSamples/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,382.84790059211565,0,0]"
+    },
+    "ITaudio1A408134698-[concealedSamples/totalSamplesReceived]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0.007978723404255319,0,0]"
+    },
+    "ITaudio1A408134698-silentConcealedSamples": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-[silentConcealedSamples/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-concealmentEvents": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[1,1,2,2,2]"
+    },
+    "ITaudio1A408134698-insertedSamplesForDeceleration": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[1080,1080,1080,1080,2562]"
+    },
+    "ITaudio1A408134698-[insertedSamplesForDeceleration/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,1480.2118050536617]"
+    },
+    "ITaudio1A408134698-removedSamplesForAcceleration": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-[removedSamplesForAcceleration/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-audioLevel": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0.00003051850947599719,0.00003051850947599719,0.16177861873226113,0.1697134311960204,0.0005798516800439467]"
+    },
+    "ITaudio1A408134698-totalAudioEnergy": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[5.77455240794649e-10,1.1176553047638372e-9,0.013124650208234216,0.0393400366690971,0.05384430489178859]"
+    },
+    "ITaudio1A408134698-[Audio_Level_in_RMS]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0.00003051850947599719,0.11816256873287793,0.16191166252269612,0.12043366731396912]"
+    },
+    "ITaudio1A408134698-totalSamplesDuration": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0.7200000000000004,1.300000000000001,2.239999999999996,3.239999999999975,4.239999999999954]"
+    },
+    "ITaudio1A408134698-jitterBufferFlushes": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[1,1,1,1,1]"
+    },
+    "ITaudio1A408134698-delayedPacketOutageSamples": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[480,480,840,840,840]"
+    },
+    "ITaudio1A408134698-relativePacketArrivalDelay": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0.01,1.01,2.51,3.03]"
+    },
+    "ITaudio1A408134698-interruptionCount": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-totalInterruptionDuration": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ITaudio1A408134698-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "inbound-rtp",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "IUdwln7BN-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "IUdwln7BN-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IUdwln7BN-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\"]"
+    },
+    "IUdwln7BN-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\"]"
+    },
+    "IUdwln7BN-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\",\"192.168.240.1\"]"
+    },
+    "IUdwln7BN-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[52265,52265,52265,52265,52265]"
+    },
+    "IUdwln7BN-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"udp\",\"udp\",\"udp\",\"udp\",\"udp\"]"
+    },
+    "IUdwln7BN-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"host\",\"host\",\"host\",\"host\",\"host\"]"
+    },
+    "IUdwln7BN-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2122194687,2122194687,2122194687,2122194687,2122194687]"
+    },
+    "IUdwln7BN-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2827231300,2827231300,2827231300,2827231300,2827231300]"
+    },
+    "IUdwln7BN-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "IUdwln7BN-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IUdwln7BN-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\"]"
+    },
+    "IUdwln7BN-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "IWwey/dhK-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "IWwey/dhK-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IWwey/dhK-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "IWwey/dhK-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\"]"
+    },
+    "IWwey/dhK-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\"]"
+    },
+    "IWwey/dhK-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[52264,52264,52264,52264,52264]"
+    },
+    "IWwey/dhK-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"udp\",\"udp\",\"udp\",\"udp\",\"udp\"]"
+    },
+    "IWwey/dhK-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"host\",\"host\",\"host\",\"host\",\"host\"]"
+    },
+    "IWwey/dhK-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2122260223,2122260223,2122260223,2122260223,2122260223]"
+    },
+    "IWwey/dhK-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1485829069,1485829069,1485829069,1485829069,1485829069]"
+    },
+    "IWwey/dhK-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "IWwey/dhK-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IWwey/dhK-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "IWwey/dhK-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "IeQvcmfSS-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "IeQvcmfSS-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IeQvcmfSS-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"wifi\",\"wifi\",\"wifi\",\"wifi\",\"wifi\"]"
+    },
+    "IeQvcmfSS-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\"]"
+    },
+    "IeQvcmfSS-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\",\"192.168.1.77\"]"
+    },
+    "IeQvcmfSS-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[52267,52267,52267,52267,52267]"
+    },
+    "IeQvcmfSS-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"udp\",\"udp\",\"udp\",\"udp\",\"udp\"]"
+    },
+    "IeQvcmfSS-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"host\",\"host\",\"host\",\"host\",\"host\"]"
+    },
+    "IeQvcmfSS-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2121932543,2121932543,2121932543,2121932543,2121932543]"
+    },
+    "IeQvcmfSS-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2119465594,2119465594,2119465594,2119465594,2119465594]"
+    },
+    "IeQvcmfSS-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "IeQvcmfSS-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IeQvcmfSS-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"wifi\",\"wifi\",\"wifi\",\"wifi\",\"wifi\"]"
+    },
+    "IeQvcmfSS-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "IhCeA18S0-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "IhCeA18S0-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IhCeA18S0-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\"]"
+    },
+    "IhCeA18S0-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\"]"
+    },
+    "IhCeA18S0-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\",\"192.168.56.1\"]"
+    },
+    "IhCeA18S0-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[9,9,9,9,9]"
+    },
+    "IhCeA18S0-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"tcp\",\"tcp\",\"tcp\",\"tcp\",\"tcp\"]"
+    },
+    "IhCeA18S0-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"host\",\"host\",\"host\",\"host\",\"host\"]"
+    },
+    "IhCeA18S0-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1518149375,1518149375,1518149375,1518149375,1518149375]"
+    },
+    "IhCeA18S0-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2137966056,2137966056,2137966056,2137966056,2137966056]"
+    },
+    "IhCeA18S0-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "IhCeA18S0-tcpType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"active\",\"active\",\"active\",\"active\",\"active\"]"
+    },
+    "IhCeA18S0-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IhCeA18S0-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\",\"ethernet\"]"
+    },
+    "IhCeA18S0-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "IkZp52INl-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "IkZp52INl-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IkZp52INl-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "IkZp52INl-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"193.43.135.6\",\"193.43.135.6\",\"193.43.135.6\",\"193.43.135.6\",\"193.43.135.6\"]"
+    },
+    "IkZp52INl-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"193.43.135.6\",\"193.43.135.6\",\"193.43.135.6\",\"193.43.135.6\",\"193.43.135.6\"]"
+    },
+    "IkZp52INl-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[52264,52264,52264,52264,52264]"
+    },
+    "IkZp52INl-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"udp\",\"udp\",\"udp\",\"udp\",\"udp\"]"
+    },
+    "IkZp52INl-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"srflx\",\"srflx\",\"srflx\",\"srflx\",\"srflx\"]"
+    },
+    "IkZp52INl-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1686052607,1686052607,1686052607,1686052607,1686052607]"
+    },
+    "IkZp52INl-url": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"stun:stun.l.google.com:19302\",\"stun:stun.l.google.com:19302\",\"stun:stun.l.google.com:19302\",\"stun:stun.l.google.com:19302\",\"stun:stun.l.google.com:19302\"]"
+    },
+    "IkZp52INl-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[3036540219,3036540219,3036540219,3036540219,3036540219]"
+    },
+    "IkZp52INl-relatedAddress": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\"]"
+    },
+    "IkZp52INl-relatedPort": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[52264,52264,52264,52264,52264]"
+    },
+    "IkZp52INl-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "IkZp52INl-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IkZp52INl-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "IkZp52INl-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "Ip6y8gUOb-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "Ip6y8gUOb-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "Ip6y8gUOb-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "Ip6y8gUOb-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\"]"
+    },
+    "Ip6y8gUOb-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\",\"10.5.0.2\"]"
+    },
+    "Ip6y8gUOb-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[9,9,9,9,9]"
+    },
+    "Ip6y8gUOb-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"tcp\",\"tcp\",\"tcp\",\"tcp\",\"tcp\"]"
+    },
+    "Ip6y8gUOb-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"host\",\"host\",\"host\",\"host\",\"host\"]"
+    },
+    "Ip6y8gUOb-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1518280447,1518280447,1518280447,1518280447,1518280447]"
+    },
+    "Ip6y8gUOb-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2787452761,2787452761,2787452761,2787452761,2787452761]"
+    },
+    "Ip6y8gUOb-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "Ip6y8gUOb-tcpType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"active\",\"active\",\"active\",\"active\",\"active\"]"
+    },
+    "Ip6y8gUOb-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "Ip6y8gUOb-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"unknown\",\"unknown\",\"unknown\",\"unknown\",\"unknown\"]"
+    },
+    "Ip6y8gUOb-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "IyCLf4Scb-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "IyCLf4Scb-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[true,true,true,true,true]"
+    },
+    "IyCLf4Scb-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[\"52.129.111.185\",\"52.129.111.185\",\"52.129.111.185\",\"52.129.111.185\",\"52.129.111.185\"]"
+    },
+    "IyCLf4Scb-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[\"52.129.111.185\",\"52.129.111.185\",\"52.129.111.185\",\"52.129.111.185\",\"52.129.111.185\"]"
+    },
+    "IyCLf4Scb-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[27746,27746,27746,27746,27746]"
+    },
+    "IyCLf4Scb-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[\"udp\",\"udp\",\"udp\",\"udp\",\"udp\"]"
+    },
+    "IyCLf4Scb-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[\"srflx\",\"srflx\",\"srflx\",\"srflx\",\"srflx\"]"
+    },
+    "IyCLf4Scb-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[1694498815,1694498815,1694498815,1694498815,1694498815]"
+    },
+    "IyCLf4Scb-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[\"qIVffjhDUySte80R\",\"qIVffjhDUySte80R\",\"qIVffjhDUySte80R\",\"qIVffjhDUySte80R\",\"qIVffjhDUySte80R\"]"
+    },
+    "IyCLf4Scb-relatedAddress": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[\"10.87.28.194\",\"10.87.28.194\",\"10.87.28.194\",\"10.87.28.194\",\"10.87.28.194\"]"
+    },
+    "IyCLf4Scb-relatedPort": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[27746,27746,27746,27746,27746]"
+    },
+    "IyCLf4Scb-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[\"hXhqS1sPxjmP7CsG\",\"hXhqS1sPxjmP7CsG\",\"hXhqS1sPxjmP7CsG\",\"hXhqS1sPxjmP7CsG\",\"hXhqS1sPxjmP7CsG\"]"
+    },
+    "IyCLf4Scb-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "remote-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "IyIdA8fAN-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "IyIdA8fAN-isRemote": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IyIdA8fAN-networkType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"wifi\",\"wifi\",\"wifi\",\"wifi\",\"wifi\"]"
+    },
+    "IyIdA8fAN-ip": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"2600:1700:a2c0:6fc0:9890:bbab:303:7db6\",\"2600:1700:a2c0:6fc0:9890:bbab:303:7db6\",\"2600:1700:a2c0:6fc0:9890:bbab:303:7db6\",\"2600:1700:a2c0:6fc0:9890:bbab:303:7db6\",\"2600:1700:a2c0:6fc0:9890:bbab:303:7db6\"]"
+    },
+    "IyIdA8fAN-address": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"2600:1700:a2c0:6fc0:9890:bbab:303:7db6\",\"2600:1700:a2c0:6fc0:9890:bbab:303:7db6\",\"2600:1700:a2c0:6fc0:9890:bbab:303:7db6\",\"2600:1700:a2c0:6fc0:9890:bbab:303:7db6\",\"2600:1700:a2c0:6fc0:9890:bbab:303:7db6\"]"
+    },
+    "IyIdA8fAN-port": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[9,9,9,9,9]"
+    },
+    "IyIdA8fAN-protocol": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"tcp\",\"tcp\",\"tcp\",\"tcp\",\"tcp\"]"
+    },
+    "IyIdA8fAN-candidateType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"host\",\"host\",\"host\",\"host\",\"host\"]"
+    },
+    "IyIdA8fAN-priority": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1518086399,1518086399,1518086399,1518086399,1518086399]"
+    },
+    "IyIdA8fAN-foundation": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[2656826476,2656826476,2656826476,2656826476,2656826476]"
+    },
+    "IyIdA8fAN-usernameFragment": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\",\"qWtX\"]"
+    },
+    "IyIdA8fAN-tcpType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"active\",\"active\",\"active\",\"active\",\"active\"]"
+    },
+    "IyIdA8fAN-vpn": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[false,false,false,false,false]"
+    },
+    "IyIdA8fAN-networkAdapterType": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[\"wifi\",\"wifi\",\"wifi\",\"wifi\",\"wifi\"]"
+    },
+    "IyIdA8fAN-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "local-candidate",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "OTaudio1A3638334047-ssrc": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[3638334047,3638334047,3638334047,3638334047,3638334047]"
+    },
+    "OTaudio1A3638334047-kind": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "OTaudio1A3638334047-transportId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "OTaudio1A3638334047-codecId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[\"COTaudio1_96_minptime=10;useinbandfec=1\",\"COTaudio1_96_minptime=10;useinbandfec=1\",\"COTaudio1_96_minptime=10;useinbandfec=1\",\"COTaudio1_96_minptime=10;useinbandfec=1\",\"COTaudio1_96_minptime=10;useinbandfec=1\"]"
+    },
+    "OTaudio1A3638334047-[codec]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[\"opus (96, minptime=10;useinbandfec=1)\",\"opus (96, minptime=10;useinbandfec=1)\",\"opus (96, minptime=10;useinbandfec=1)\",\"opus (96, minptime=10;useinbandfec=1)\",\"opus (96, minptime=10;useinbandfec=1)\"]"
+    },
+    "OTaudio1A3638334047-packetsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[36,65,112,162,212]"
+    },
+    "OTaudio1A3638334047-[packetsSent/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[0,49.78329020835056,49.98292035508177,50.03177753814736,49.9396695362234]"
+    },
+    "OTaudio1A3638334047-bytesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[1256,3040,5507,7364,9008]"
+    },
+    "OTaudio1A3638334047-[bytesSent_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[0,24500.245443226868,20988.57268357221,14865.441742134344,13136.130674808204]"
+    },
+    "OTaudio1A3638334047-mediaSourceId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[\"SA1\",\"SA1\",\"SA1\",\"SA1\",\"SA1\"]"
+    },
+    "OTaudio1A3638334047-remoteId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[\"RIA3638334047\",\"RIA3638334047\",\"RIA3638334047\",\"RIA3638334047\",\"RIA3638334047\"]"
+    },
+    "OTaudio1A3638334047-mid": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "OTaudio1A3638334047-retransmittedPacketsSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "OTaudio1A3638334047-[retransmittedPacketsSent/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "OTaudio1A3638334047-headerBytesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[432,780,1344,1944,2544]"
+    },
+    "OTaudio1A3638334047-[headerBytesSent_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[0,4779.195860001653,4798.360354087849,4803.050643662146,4794.2082754774465]"
+    },
+    "OTaudio1A3638334047-retransmittedBytesSent": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "OTaudio1A3638334047-[retransmittedBytesSent_in_bits/s]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "OTaudio1A3638334047-targetBitrate": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[32000,32000,32000,32000,32000]"
+    },
+    "OTaudio1A3638334047-totalPacketSendDelay": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "OTaudio1A3638334047-[totalPacketSendDelay/packetsSent_in_ms]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "OTaudio1A3638334047-nackCount": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "OTaudio1A3638334047-active": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[true,true,true,true,true]"
+    },
+    "OTaudio1A3638334047-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "outbound-rtp",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605]"
+    },
+    "RIA3638334047-ssrc": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[3638334047,3638334047,3638334047,3638334047,3638334047]"
+    },
+    "RIA3638334047-kind": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "RIA3638334047-transportId": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "RIA3638334047-codecId": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[\"COTaudio1_96_minptime=10;useinbandfec=1\",\"COTaudio1_96_minptime=10;useinbandfec=1\",\"COTaudio1_96_minptime=10;useinbandfec=1\",\"COTaudio1_96_minptime=10;useinbandfec=1\",\"COTaudio1_96_minptime=10;useinbandfec=1\"]"
+    },
+    "RIA3638334047-jitter": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[0.000019999999999999998,0.000019999999999999998,0.000019999999999999998,0.000708,0.000708]"
+    },
+    "RIA3638334047-packetsLost": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "RIA3638334047-localId": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[\"OTaudio1A3638334047\",\"OTaudio1A3638334047\",\"OTaudio1A3638334047\",\"OTaudio1A3638334047\",\"OTaudio1A3638334047\"]"
+    },
+    "RIA3638334047-fractionLost": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "RIA3638334047-totalRoundTripTime": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[0,0,0,0.120499,0.120499]"
+    },
+    "RIA3638334047-roundTripTimeMeasurements": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[0,0,0,1,1]"
+    },
+    "RIA3638334047-timestamp": {
+     "startTime": "2024-03-29T22:14:00.071Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[1711750440071,1711750440071,1711750440071,1711750442236,1711750442236]"
+    },
+    "ROA408134698-ssrc": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[408134698,408134698,408134698,408134698,408134698]"
+    },
+    "ROA408134698-kind": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "ROA408134698-transportId": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\",\"Taudio1\"]"
+    },
+    "ROA408134698-codecId": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[\"CITaudio1_96_minptime=10;useinbandfec=1\",\"CITaudio1_96_minptime=10;useinbandfec=1\",\"CITaudio1_96_minptime=10;useinbandfec=1\",\"CITaudio1_96_minptime=10;useinbandfec=1\",\"CITaudio1_96_minptime=10;useinbandfec=1\"]"
+    },
+    "ROA408134698-packetsSent": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[6,6,6,177,177]"
+    },
+    "ROA408134698-bytesSent": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[111,111,111,5062,5062]"
+    },
+    "ROA408134698-localId": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[\"ITaudio1A408134698\",\"ITaudio1A408134698\",\"ITaudio1A408134698\",\"ITaudio1A408134698\",\"ITaudio1A408134698\"]"
+    },
+    "ROA408134698-remoteTimestamp": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[1711750376499,1711750376499,1711750376499,1711750379940,1711750379940]"
+    },
+    "ROA408134698-[remoteTimestamp]": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[\"3/29/2024, 6:12:56 PM\",\"3/29/2024, 6:12:56 PM\",\"3/29/2024, 6:12:56 PM\",\"3/29/2024, 6:12:59 PM\",\"3/29/2024, 6:12:59 PM\"]"
+    },
+    "ROA408134698-reportsSent": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[1,1,1,2,2]"
+    },
+    "ROA408134698-roundTripTimeMeasurements": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ROA408134698-totalRoundTripTime": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[0,0,0,0,0]"
+    },
+    "ROA408134698-timestamp": {
+     "startTime": "2024-03-29T22:13:59.904Z",
+     "endTime": "2024-03-29T22:14:03.021Z",
+     "statsType": "remote-outbound-rtp",
+     "values": "[1711750439904,1711750439904,1711750439904,1711750443021,1711750443021]"
+    },
+    "SA1-trackIdentifier": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-source",
+     "values": "[\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\",\"f0ebc782-8bc4-4618-af2d-a8b92ee47454\"]"
+    },
+    "SA1-kind": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-source",
+     "values": "[\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\",\"audio\"]"
+    },
+    "SA1-audioLevel": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "media-source",
+     "values": "[0,0.9753410443433943,0.0007019257179479354,0.00003051850947599719,0]"
+    },
+    "SA1-totalAudioEnergy": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "media-source",
+     "values": "[2.0490347254003665e-10,0.23901237532125483,0.5036849940438612,0.5036850121871305,0.5036850123082095]"
+    },
+    "SA1-[Audio_Level_in_RMS]": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "media-source",
+     "values": "[0,0.6419426001791307,0.5306285100353659,0.00013469695327044,0.000011003591944746054]"
+    },
+    "SA1-totalSamplesDuration": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "media-source",
+     "values": "[1.300000000000001,1.8800000000000014,2.819999999999984,3.8199999999999625,4.819999999999942]"
+    },
+    "SA1-timestamp": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-source",
+     "values": "[1711750440620.186,1711750441202.711,1711750442143.032,1711750443142.397,1711750444143.605,1711750445157.239,1711750445783.404,1711750446279.484,1711750448157.997,1711750449227.482,1711750450150.687,1711750451157.374,1711750452143.934,1711750452948.696,1711750453288.088]"
+    },
+    "Taudio1-selectedCandidatePairId": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[\"CPkZp52INl_yCLf4Scb\",\"CPkZp52INl_yCLf4Scb\",\"CPkZp52INl_yCLf4Scb\",\"CPkZp52INl_yCLf4Scb\",\"CPkZp52INl_yCLf4Scb\"]"
+    },
+    "Taudio1-tlsVersion": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[\"FEFD\",\"FEFD\",\"FEFD\",\"FEFD\",\"FEFD\"]"
+    },
+    "Taudio1-dtlsCipher": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[\"TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256\",\"TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256\",\"TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256\",\"TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256\",\"TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256\"]"
+    },
+    "Taudio1-srtpCipher": {
+     "startTime": "2024-03-29T22:14:00.620Z",
+     "endTime": "2024-03-29T22:14:04.143Z",
+     "statsType": "transport",
+     "values": "[\"AES_CM_128_HMAC_SHA1_80\",\"AES_CM_128_HMAC_SHA1_80\",\"AES_CM_128_HMAC_SHA1_80\",\"AES_CM_128_HMAC_SHA1_80\",\"AES_CM_128_HMAC_SHA1_80\"]"
+    },
+    "SA1-echoReturnLoss": {
+     "startTime": "2024-03-29T22:14:01.202Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-source",
+     "values": "[-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30,-30]"
+    },
+    "SA1-echoReturnLossEnhancement": {
+     "startTime": "2024-03-29T22:14:01.202Z",
+     "endTime": "2024-03-29T22:14:13.288Z",
+     "statsType": "media-source",
+     "values": "[0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075,0.17551203072071075]"
+    },
+    "RIA3638334047-roundTripTime": {
+     "startTime": "2024-03-29T22:14:02.236Z",
+     "endTime": "2024-03-29T22:14:02.236Z",
+     "statsType": "remote-inbound-rtp",
+     "values": "[0.120499,0.120499]"
+    }
+   },
+   "updateLog": [
+    {
+     "time": "3/29/2024, 6:13:58 PM",
+     "type": "setRemoteDescription",
+     "value": "type: offer, sdp: v=0\r\no=thisisadapterortc 8251429050443055 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=msid-semantic:WMS *\r\nm=audio 9 UDP/TLS/RTP/SAVPF 96 101\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtpmap:96 opus/48000/2\r\na=fmtp:96 minptime=10;useinbandfec=1\r\na=rtpmap:101 telephone-event/48000\r\na=sendrecv\r\na=msid:legacy audio\r\na=rtcp-mux\r\na=mid:audio\r\na=ice-ufrag:hXhqS1sPxjmP7CsG\r\na=ice-pwd:9uuUzmh0zrN0xrLs9jcmXD+z\r\na=setup:actpass\r\na=fingerprint:sha-256 88:8E:7E:4C:48:66:55:DA:DC:68:79:E8:D1:2A:02:6D:61:A2:6C:EE:5D:19:7A:88:17:5B:56:A0:21:E9:30:61\r\n"
+    },
+    {
+     "time": "3/29/2024, 6:13:58 PM",
+     "type": "setRemoteDescriptionOnSuccess",
+     "value": ""
+    },
+    {
+     "time": "3/29/2024, 6:13:58 PM",
+     "type": "signalingstatechange",
+     "value": "have-remote-offer"
+    },
+    {
+     "time": "3/29/2024, 6:13:58 PM",
+     "type": "transceiverAdded",
+     "value": "Caused by: setRemoteDescription\n\ngetTransceivers()[0]:{\n  mid:'audio',\n  kind:'audio',\n  sender:{\n    track:null,\n    streams:[],\n  },\n  receiver:{\n    track:'audio',\n    streams:['legacy'],\n  },\n  direction:'recvonly',\n  currentDirection:null,\n}"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "transceiverAdded",
+     "value": "Caused by: addTrack\n\ngetTransceivers()[0]:{\n  mid:'audio',\n  kind:'audio',\n  sender:{\n    track:'f0ebc782-8bc4-4618-af2d-a8b92ee47454',\n    streams:[],\n  },\n  receiver:{\n    track:'audio',\n    streams:['legacy'],\n  },\n  direction:'sendrecv',\n  currentDirection:null,\n}"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "createAnswer",
+     "value": "options: {, voiceActivityDetection: true}"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "createAnswerOnSuccess",
+     "value": "type: answer, sdp: v=0\r\no=- 6650216824150146078 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=msid-semantic: WMS\r\nm=audio 9 UDP/TLS/RTP/SAVPF 96 101\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:qWtX\r\na=ice-pwd:M0cQdebuZJW8czZGyoquqaF9\r\na=ice-options:trickle\r\na=fingerprint:sha-256 57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\r\na=setup:active\r\na=mid:audio\r\na=sendrecv\r\na=msid:- 839bc818-9977-4c4c-995b-c47caf7d2005\r\na=rtcp-mux\r\na=rtpmap:96 opus/48000/2\r\na=fmtp:96 minptime=10;useinbandfec=1\r\na=rtpmap:101 telephone-event/48000\r\na=ssrc:3638334047 cname:nejN6geScaLTq5Yr\r\n"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "setLocalDescription",
+     "value": "type: answer, sdp: v=0\r\no=- 6650216824150146078 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=msid-semantic: WMS\r\nm=audio 9 UDP/TLS/RTP/SAVPF 96 101\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:qWtX\r\na=ice-pwd:M0cQdebuZJW8czZGyoquqaF9\r\na=ice-options:trickle\r\na=fingerprint:sha-256 57:FF:49:42:8D:0A:70:20:B0:F0:CA:A1:92:07:ED:70:6C:ED:01:58:AE:3D:24:65:42:F2:9C:38:1E:2D:35:20\r\na=setup:active\r\na=mid:audio\r\na=sendrecv\r\na=msid:- 839bc818-9977-4c4c-995b-c47caf7d2005\r\na=rtcp-mux\r\na=rtpmap:96 opus/48000/2\r\na=fmtp:96 minptime=10;useinbandfec=1\r\na=rtpmap:101 telephone-event/48000\r\na=ssrc:3638334047 cname:nejN6geScaLTq5Yr\r\n"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "setLocalDescriptionOnSuccess",
+     "value": ""
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "signalingstatechange",
+     "value": "stable"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "transceiverModified",
+     "value": "Caused by: setLocalDescription\n\ngetTransceivers()[0]:{\n  mid:'audio',\n  kind:'audio',\n  sender:{\n    track:'f0ebc782-8bc4-4618-af2d-a8b92ee47454',\n    streams:[],\n    encodings: [\n      {active: true, },\n    ],\n  },\n  receiver:{\n    track:'audio',\n    streams:['legacy'],\n  },\n  direction:'sendrecv',\n  currentDirection:'sendrecv',\n}"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icegatheringstatechange",
+     "value": "gathering"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "addIceCandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:qIVffjhDUySte80R 1 UDP 1694498815 52.129.111.185 27746 typ srflx raddr 10.87.28.194 rport 27746"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "iceconnectionstatechange",
+     "value": "checking"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "connectionstatechange",
+     "value": "connecting"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:1485829069 1 udp 2122260223 10.5.0.2 52264 typ host generation 0 ufrag qWtX network-id 5 network-cost 50"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:2827231300 1 udp 2122194687 192.168.240.1 52265 typ host generation 0 ufrag qWtX network-id 1"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:2177110396 1 udp 2122129151 192.168.56.1 52266 typ host generation 0 ufrag qWtX network-id 6"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:2119465594 1 udp 2121932543 192.168.1.77 52267 typ host generation 0 ufrag qWtX network-id 2 network-cost 10"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:1626415352 1 udp 2122066175 2600:1700:a2c0:6fc0:9890:bbab:303:7db6 52268 typ host generation 0 ufrag qWtX network-id 3 network-cost 10"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:1084582846 1 udp 2122000639 2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1 52269 typ host generation 0 ufrag qWtX network-id 4 network-cost 10"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidateerror",
+     "value": "url: stun:turn.usw2.pure.cloud:3478\naddress: [2600:1700:a2c0:x:x:x:x:x]\nport: 52268\nhost_candidate: [2600:1700:a2c0:x:x:x:x:x]:52268\nerror_text: STUN host lookup received error.\nerror_code: 701"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidateerror",
+     "value": "url: stun:turn.usw2.pure.cloud:3478\naddress: [2600:1700:a2c0:x:x:x:x:x]\nport: 52269\nhost_candidate: [2600:1700:a2c0:x:x:x:x:x]:52269\nerror_text: STUN host lookup received error.\nerror_code: 701"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidateerror",
+     "value": "url: turn:turn.usw2.pure.cloud:3478?transport=udp\naddress: [2600:1700:a2c0:x:x:x:x:x]\nport: 52268\nhost_candidate: [2600:1700:a2c0:x:x:x:x:x]:52268\nerror_text: TURN host lookup received error.\nerror_code: 701"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidateerror",
+     "value": "url: turn:turn.usw2.pure.cloud:3478?transport=udp\naddress: [2600:1700:a2c0:x:x:x:x:x]\nport: 52269\nhost_candidate: [2600:1700:a2c0:x:x:x:x:x]:52269\nerror_text: TURN host lookup received error.\nerror_code: 701"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:3036540219 1 udp 1686052607 193.43.135.6 52264 typ srflx raddr 10.5.0.2 rport 52264 generation 0 ufrag qWtX network-id 5 network-cost 50"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:2787452761 1 tcp 1518280447 10.5.0.2 9 typ host tcptype active generation 0 ufrag qWtX network-id 5 network-cost 50"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:1445917904 1 tcp 1518214911 192.168.240.1 9 typ host tcptype active generation 0 ufrag qWtX network-id 1"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:2137966056 1 tcp 1518149375 192.168.56.1 9 typ host tcptype active generation 0 ufrag qWtX network-id 6"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:2164174574 1 tcp 1517952767 192.168.1.77 9 typ host tcptype active generation 0 ufrag qWtX network-id 2 network-cost 10"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:2656826476 1 tcp 1518086399 2600:1700:a2c0:6fc0:9890:bbab:303:7db6 9 typ host tcptype active generation 0 ufrag qWtX network-id 3 network-cost 10"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:3188703018 1 tcp 1518020863 2600:1700:a2c0:6fc0:c8d:cd77:7feb:bb1 9 typ host tcptype active generation 0 ufrag qWtX network-id 4 network-cost 10"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icecandidate",
+     "value": "sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:2647703602 1 udp 41885695 52.129.111.28 17963 typ relay raddr 193.43.135.6 rport 52264 generation 0 ufrag qWtX network-id 5 network-cost 50"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "iceconnectionstatechange",
+     "value": "connected"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "icegatheringstatechange",
+     "value": "complete"
+    },
+    {
+     "time": "3/29/2024, 6:13:59 PM",
+     "type": "connectionstatechange",
+     "value": "connected"
+    },
+    {
+     "time": "3/29/2024, 6:14:05 PM",
+     "type": "close",
+     "value": ""
+    },
+    {
+     "time": "3/29/2024, 6:14:05 PM",
+     "type": "connectionstatechange",
+     "value": "closed"
+    }
+   ],
+   "url": "https://apps.usw2.pure.cloud/directory/#/person/5f6fe78e-dfbb-400f-a70b-d9b5c8340fdc"
+  }
+ },
+ "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+}

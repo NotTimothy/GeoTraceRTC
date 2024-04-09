@@ -1,0 +1,23 @@
+[package]
+name = "log-parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fs = "0.0.5"
+regex = "1.10.4"
+serde_json = "1.0.115"
+clap = { version = "4.5.0", features = ["derive"] }
+reqwest = { version = "0.12.1", features = ["blocking", "json"] }
+soup = "0.5.1"
+tokio = { version = "1.36.0", features = ["full"] }
+serde = { version = "1.0.197", features = ["derive"] }
+axum = "0.7.5"
+tokio-stream = "0.1"
+tower-http = { version = "0.5.2", features = ["trace"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+mongodb = { version = "2.8.2", features = ["tokio-sync"] }
+titlecase = "2.2.1"
+futures = "0.3.30"
+google_maps = "3.4.0"
