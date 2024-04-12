@@ -1,6 +1,9 @@
 const { ipcRenderer } = require('electron');
 const mapboxgl = require('mapbox-gl');
-require('dotenv').config();
+require('dotenv').config()
+// const dotenvExpand = require("dotenv-expand");
+
+// dotenvExpand(dotenv.config())
 
 const MAP_BOX_TOKEN = process.env.MAP_BOX_TOKEN;
 mapboxgl.accessToken = MAP_BOX_TOKEN;

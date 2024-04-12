@@ -22,7 +22,8 @@ function createWindow() {
 app.whenReady().then(createWindow);
 
 function startApiProcess() {
-  const apiPath = path.join(__dirname, 'bin', 'log-parser.exe');
+  const apiPath = path.join(__dirname, '..', 'bin', 'log-parser.exe');
+  console.log(apiPath);
   apiProcess = spawn(apiPath);
 
   apiProcess.stdout.on('data', (data) => {
