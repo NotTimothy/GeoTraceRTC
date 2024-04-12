@@ -24,6 +24,8 @@ npm install
 npm run start
 ```
 
+## The Rust API is now added to the code and you no longer need to worry about running it
+
 Running the API parser
 
 ```
