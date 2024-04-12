@@ -6,7 +6,38 @@
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "dev.duocore.geotracertc",
+    "productName": "GeoTraceRTC",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "bin/*"
+    ],
+    "extraResources": [
+      "./bin/log-parser.exe",
+      ".env",
+      ".electron-builder.env"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "rpm"
+      ]
+    }
   },
   "repository": {
     "type": "git",
@@ -33,7 +64,8 @@
     "@electron-forge/maker-squirrel": "^7.3.1",
     "@electron-forge/maker-zip": "^7.3.1",
     "@electron-forge/plugin-auto-unpack-natives": "^7.3.1",
-    "electron": "^29.2.0"
+    "electron": "^29.3.0",
+    "electron-builder": "^22.14.13"
   },
   "dependencies": {
     "@electron-forge/plugin-fuses": "^7.3.1",

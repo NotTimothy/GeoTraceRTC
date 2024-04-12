@@ -69,8 +69,6 @@ async fn parse_json(json_data: Json<Value>) -> Result<WebRTCData, String> {
         }
     }
 
-    println!("{:#?}", ip);
-
     Ok(WebRTCData {
         ip,
         address,
@@ -104,6 +102,5 @@ async fn main() {
     let listener = tokio::net::TcpListener::bind("127.0.0.1:8080")
         .await
         .unwrap();
-    tracing::debug!("listening on {}", listener.local_addr().unwrap());
     axum::serve(listener, app).await.unwrap();
 }

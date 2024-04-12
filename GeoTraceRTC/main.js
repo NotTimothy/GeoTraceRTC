@@ -1,6 +1,8 @@
 const { app, BrowserWindow, ipcMain, dialog } = require('electron');
 const fs = require('fs');
 const axios = require('axios');
+const { spawn } = require('child_process');
+const path = require('path');
 
 let mainWindow;
 
@@ -18,6 +20,29 @@ function createWindow() {
 }
 
 app.whenReady().then(createWindow);
+
+function startApiProcess() {
+  const apiPath = path.join(__dirname, 'bin', 'log-parser.exe');
+  apiProcess = spawn(apiPath);
+
+  apiProcess.stdout.on('data', (data) => {
+    console.log(`API stdout: ${data}`);
+  });
+
+  apiProcess.stderr.on('data', (data) => {
+    console.error(`API stderr: ${data}`);
+  });
+
+  apiProcess.on('error', (err) => {
+    console.error('Failed to start the Rust API process:', err);
+  });
+
+  apiProcess.on('close', (code) => {
+    console.log(`API process exited with code ${code}`);
+  });
+}
+
+startApiProcess()
 
 ipcMain.on('open-file-dialog', (event) => {
   dialog.showOpenDialog(mainWindow, {
