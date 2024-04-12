@@ -8,6 +8,14 @@ Installing Rustup to get the cargo toolchain: `curl --proto '=https' --tlsv1.2 -
 
 Install node.js: https://nodejs.org/en/download/current
 
+Create a file in the location `./GeoTraceRTC/' named '.env'
+
+It should have one value
+
+```
+MAP_BOX_TOKEN=YOUR_MAP_BOX_API_GOES_HERE
+```
+
 Running the UI
 
 ```

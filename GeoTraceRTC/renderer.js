@@ -1,9 +1,8 @@
 const { ipcRenderer } = require('electron');
 const mapboxgl = require('mapbox-gl');
-
 require('dotenv').config();
-const MAP_BOX_TOKEN = process.env.MAP_BOX_TOKEN
 
+const MAP_BOX_TOKEN = process.env.MAP_BOX_TOKEN;
 mapboxgl.accessToken = MAP_BOX_TOKEN;
 
 ipcRenderer.send('open-file-dialog');
@@ -26,21 +25,23 @@ ipcRenderer.on('location-data', (event, locationData) => {
         type: 'geojson',
         data: {
           type: 'FeatureCollection',
-          features: locationData.map(data => ({
-            type: 'Feature',
-            geometry: {
-              type: 'Point',
-              coordinates: [data.longitude, data.latitude],
-            },
-            properties: {
-              ip: data.ip,
-              address: data.address,
-              port: data.port,
-              network_type: data.network_type,
-              protocol: data.protocol,
-              candidate_type: data.candidate_type,
-            },
-          })),
+          features: locationData
+            .filter(data => data.latitude && data.longitude && !isOverOcean(data.latitude, data.longitude))
+            .map(data => ({
+              type: 'Feature',
+              geometry: {
+                type: 'Point',
+                coordinates: [data.longitude, data.latitude],
+              },
+              properties: {
+                ip: data.ip,
+                address: data.address,
+                port: data.port,
+                network_type: data.network_type,
+                protocol: data.protocol,
+                candidate_type: data.candidate_type,
+              },
+            })),
         },
       });
 
@@ -85,10 +86,10 @@ ipcRenderer.on('location-data', (event, locationData) => {
         type: 'symbol',
         source: 'route',
         layout: {
-          'symbol-placement': 'line',
+          'symbol-placement': 'line-end',
           'text-field': '►',
           'text-size': 15,
-          'symbol-spacing': 100,
+          'text-offset': [0, -0.5],
           'text-keep-upright': true,
         },
         paint: {
@@ -104,3 +105,17 @@ ipcRenderer.on('location-data', (event, locationData) => {
     });
   }
 });
+
+function isOverOcean(latitude, longitude) {
+  // Check if the coordinates are over the ocean using a geo-spatial library or API
+  // Return true if the coordinates are over the ocean, false otherwise
+  // You can use a library like Turf.js or a reverse geocoding API for this purpose
+  // Example implementation using Turf.js:
+  // const point = turf.point([longitude, latitude]);
+  // const isOcean = turf.booleanPointInPolygon(point, oceanPolygon);
+  // return isOcean;
+  
+  // Placeholder implementation: assume all coordinates are on land
+  return false;
+}
+
