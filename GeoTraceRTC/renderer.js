@@ -97,6 +97,34 @@ ipcRenderer.on('location-data', (event, locationData) => {
         },
       });
 
+      // Add a popup for displaying properties on hover
+      const popup = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: false,
+      });
+
+      map.on('mousemove', 'points', (e) => {
+        map.getCanvas().style.cursor = 'pointer';
+        const feature = e.features[0];
+        const props = feature.properties;
+        const description = `
+          <div>
+            <strong>IP:</strong> ${props.ip}<br>
+            <strong>Address:</strong> ${props.address}<br>
+            <strong>Port:</strong> ${props.port}<br>
+            <strong>Network Type:</strong> ${props.network_type}<br>
+            <strong>Protocol:</strong> ${props.protocol}<br>
+            <strong>Candidate Type:</strong> ${props.candidate_type}
+          </div>
+        `;
+        popup.setLngLat(e.lngLat).setHTML(description).addTo(map);
+      });
+
+      map.on('mouseleave', 'points', () => {
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+      });
+
       const bounds = coordinates.reduce((bounds, coord) => {
         return bounds.extend(coord);
       }, new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]));
