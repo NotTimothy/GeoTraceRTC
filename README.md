@@ -16,9 +16,11 @@ It should have one value
 MAP_BOX_TOKEN=YOUR_MAP_BOX_API_GOES_HERE
 ```
 
-## Building and running the app.
+## Building and running the app from source.
 
 Rust and npm needs installed:
+
+Installing cURL on Windows: https://curl.se/windows/
 
 Installing Rustup to get the cargo toolchain: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
